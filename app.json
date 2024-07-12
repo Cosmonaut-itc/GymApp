@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "huitzil-gymapp",
-    "slug": "huitzil-gymapp",
+    "slug": "gymapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -31,6 +31,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "aa84c694-037f-46bd-8403-728c3eec638e"
+      }
+    },
+    "owner": "felixddhs"
   }
 }
