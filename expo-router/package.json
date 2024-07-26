@@ -9,7 +9,8 @@
     "android": "npx expo start --android",
     "ios": "npx expo start --ios",
     "web": "npx expo start --web",
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "generate-themes": "tamagui generate-themes ./theme-builder.ts ./theme-output.ts"
   },
   "jest": {
     "preset": "jest-expo"
